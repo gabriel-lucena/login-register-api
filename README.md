@@ -1,4 +1,5 @@
 # Adonis application - Sistema de Login e Registro
+instalar adonisjs-cli / pm i -g @adonisjs/cli
 
 Organização das pastas.
 
