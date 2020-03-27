@@ -1,6 +1,8 @@
 # Adonis application - Sistema de Login e Registro
 instalar adonisjs-cli / pm i -g @adonisjs/cli
 
+- Se o npm estiver dando problema é necessario a utilização do YARN
+
 Organização das pastas.
 
 - app
