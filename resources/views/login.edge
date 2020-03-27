@@ -1,0 +1,10 @@
+@layout('layout.app')
+
+@section('content')
+  <form action="" method="post">
+      {{ csrfField() }}
+      <input type="email" name="email" required>
+      <input type="password" name="password">
+      <input type="submit" value="entrar">
+  </form>
+@endsection

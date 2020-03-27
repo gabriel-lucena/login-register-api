@@ -1,0 +1,12 @@
+@layout('layout.app')
+<title>Registrar-se</title>
+
+@section('content')
+  <form action="" method="post">
+      {{ csrfField() }}
+      <input type="text" name="name" id="" required>
+      <input type="email" name="email" id="" required>
+      <input type="password" name="password" id="" required>
+      <input type="submit" value="criar conta">
+  </form>
+@endsection
