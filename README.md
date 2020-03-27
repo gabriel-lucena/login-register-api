@@ -35,7 +35,7 @@ para mexer no cadastro
 
 - app/Controllers/Http/RegisterController.js | para adicionar a atualização das requisições ao banco
 
--- database/migrations/1503248427885_user.js | para adicionar novos dados ao banco
+- database/migrations/1503248427885_user.js | para adicionar novos dados ao banco
 
 fazer a migração
 
