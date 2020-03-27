@@ -28,9 +28,9 @@ ou se utilizar o npm `npm install`.
 executando o projeto
 
 ```bash
-    yarn dev
+    yarn test
 ```
-ou pelo npm `npm dev`.
+ou pelo npm `npm test`.
 
 ### Para mexer nas configurações
 
