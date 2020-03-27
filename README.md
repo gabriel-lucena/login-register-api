@@ -1,4 +1,4 @@
-# Adonis fullstack application - Sistema de Login e Registro
+# Adonis application - Sistema de Login e Registro
 
 Organização das pastas.
 
