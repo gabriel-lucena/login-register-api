@@ -49,8 +49,13 @@ arquivo .env
 
 
 DB_CONNECTION=banco de dados utilizado
+
 DB_HOST=127.0.0.1
+
 DB_PORT=porta do banco
+
 DB_USER=usuário
+
 DB_PASSWORD=senha
+
 DB_DATABASE=nome do banco
