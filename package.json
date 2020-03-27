@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "adonis serve --dev"
+    "test": "adonis serve --dev"
   },
   "keywords": [
     "adonisjs",
