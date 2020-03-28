@@ -26,8 +26,12 @@
     "@adonisjs/lucid": "^6.1.3",
     "@adonisjs/session": "^1.0.27",
     "@adonisjs/shield": "^1.0.8",
+<<<<<<< HEAD
     "mysql": "^2.18.1",
     "pg": "^7.18.2"
+=======
+    "sqlite": "^3.0.6"
+>>>>>>> fc69ecd076ce6ce59519d8b01f546a2f151d3969
   },
   "devDependencies": {},
   "autoload": {
