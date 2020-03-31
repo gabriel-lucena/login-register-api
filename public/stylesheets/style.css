@@ -24,10 +24,14 @@ h2 {
 
 input { 
     border: none;
+    background: none;
 }
 
 .input-style {
-    border-bottom: 2px solid #cecece;
+    border: 2px solid #00000029;
+    border-radius: 4pt;
+    background-color: #cecece20;
+    padding: 4pt;
     width: 96%;
     margin: 20pt 2% 0 2%;
 }
@@ -43,7 +47,7 @@ a {
 
 label {
     text-align: center;
-    margin: 6% 0 -100pt 0;
+    margin-top: 6%;
     width: 100%;
     padding: 4pt;
 }
