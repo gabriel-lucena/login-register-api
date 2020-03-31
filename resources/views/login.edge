@@ -1,11 +1,28 @@
 @layout('layout.app')
 
 @section('content')
+<div class="div-border">
+  <h2>Fazer Login</h2>
+
   <form action="" method="post">
-      {{ csrfField() }}
-      <input type="email" name="email" required>
-      <input type="password" name="password">
-      <input type="submit" value="entrar">
-    
+    {{ csrfField() }}
+      <section class="input-style">
+          <i class="fas fa-user"></i>
+          <input type="email" name="email"
+          placeholder="Seu E-mail" required>
+      </section>
+      <section class="input-style">
+          <i class="fas fa-key"></i>
+          <input type="password" name="password"
+          placeholder="Sua senha" required>
+      </section>
+      <label for="">
+          <input type="checkbox" name="checkbox">
+          Continuar conectado!
+      </label>
+      <button type="submit" class="btn-style">Entrar</button>
   </form>
+  <p>Que tal criar uma conta? <a href="/register">Registrar-se.</a></p>
+</div>
+
 @endsection
