@@ -16,10 +16,8 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-Route.on('/').render('home')
-
-Route.get('/login', 'LoginController.index')
-Route.post('/login', 'LoginController.store')
+Route.get('/', 'LoginController.index').as('login')
+Route.post('/', 'LoginController.store').as('login')
 
 Route.get('/register', 'RegisterController.index')
 Route.post('/register', 'RegisterController.store')
