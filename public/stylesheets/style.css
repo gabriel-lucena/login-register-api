@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap');
+
+body {
+    background-color: #f8f8f8;
+}
+
+h2 {
+    font-family: 'Spicy Rice', cursive;
+}
+
+.div-border {
+    border: 1px solid White;
+    border-radius: 10pt;
+    box-shadow: 2px 2px 2px 2px #00000010;
+    padding: 24pt;;
+    background-color: White;
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin: 12vh 0 10vh 24vw;
+}
+
+
+input { 
+    border: none;
+}
+
+.input-style {
+    border-bottom: 2px solid #cecece;
+    width: 96%;
+    margin: 20pt 2% 0 2%;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: Tomato;
+}
+
+label {
+    text-align: center;
+    width: 100%;
+    padding: 4pt;
+}
+
+.btn-style {
+    border: 1px solid Tomato;
+    background-color: Tomato;
+    color: white;
+    display: block;
+    margin: 4% auto 4% auto;
+    padding: 4pt;
+}
