@@ -25,6 +25,7 @@ h2 {
 input { 
     border: none;
     background: none;
+    width: 89%;
 }
 
 .input-style {
@@ -54,6 +55,7 @@ label {
 
 .btn-style {
     border: 1px solid Tomato;
+    border-radius: 2pt;
     background-color: Tomato;
     color: white;
     display: block;
