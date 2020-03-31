@@ -18,14 +18,19 @@ h2 {
     display: block;
     margin: auto;
     width: 60%;
-    margin: 12vh 0 10vh 24vw;
+    margin: 12vh 0 10vh 20vw;
 }
 
 
 input { 
     border: none;
     background: none;
-    width: 89%;
+    width: 84%;
+}
+
+/* Reset para o checkbox*/
+input[type="checkbox"] {
+    width: 0;
 }
 
 .input-style {
@@ -48,9 +53,12 @@ a {
 
 label {
     text-align: center;
+    display: block;
+    margin: 0 auto;
+    position: relative;
     margin-top: 6%;
     width: 100%;
-    padding: 4pt;
+ 
 }
 
 .btn-style {
