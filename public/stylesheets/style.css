@@ -43,6 +43,7 @@ a {
 
 label {
     text-align: center;
+    margin: 6% 0 -100pt 0;
     width: 100%;
     padding: 4pt;
 }
@@ -52,6 +53,6 @@ label {
     background-color: Tomato;
     color: white;
     display: block;
-    margin: 4% auto 4% auto;
+    margin: 6% auto 4% auto;
     padding: 4pt;
 }
