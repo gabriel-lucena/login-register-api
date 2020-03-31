@@ -13,8 +13,8 @@ class RegisterController {
         register.name = request.input('name')
         register.email = request.input('email')
         register.password = request.input('password')
-        register.data= request.input('data')
-        register.cidade= request.input('cidade')
+        register.date= request.input('date')
+        register.city= request.input('city')
 
         await register.save()
         
