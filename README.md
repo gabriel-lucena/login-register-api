@@ -2,8 +2,6 @@ o adonisjs v4.1 tem uma compatilidade melhor com o:
 ``` 
     npm -v
     5.6.0
-    node -v
-    v9.11.2
 ```
 
 # Adonis application - Sistema de Login e Registro
