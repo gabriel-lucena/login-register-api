@@ -12,3 +12,5 @@ instalar dependencias
 ```bash
 npm install
 ```
+
+Acesse a aplicação do projeto: [ReactJS login-register](https://github.com/gabriel-lucena/login-register-react).
