@@ -1,5 +1,14 @@
-# login-register
-Aplicação para cadastro e login de usuários - nodejs, Adonis, Sqlite, ReactJS.
+# Adonis API application
 
-- App-React - Aplicação do projeto.
-- Server-api - API do projeto, conexão com banco de dados e rotas.
+1. App/Controller/Http - Controles da API
+2. Start/Routes.js - Rotas da API
+3. CORS - não mexer
+4. .env - configurações da API
+
+## Setup
+
+instalar dependencias
+
+```bash
+npm install
+```
